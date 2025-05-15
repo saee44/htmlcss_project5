@@ -59,6 +59,10 @@ html,body{
     padding-left: 2rem;
     padding-right: 2rem;
 }
+.arrow{
+    object-fit: cover;
+    align-self: center;
+}
 .centerbluebox{
     height: 70%;
     width: 80%;
@@ -118,23 +122,11 @@ html,body{
      bottom: -3rem;
     right: 2rem;
 }
-@media (max-width:480px){
-#AlgoEd_Homepage{
-    height: 50vh;
-    width: 100vw;
 
-}  
-.centerbluebox{
-    height: 35%;
-} 
-.leftblue{
-    width: 20%;
-} 
-}
 
 /* section2 start here */
 #section2{
-    height: 55vh;
+    height: 60vh;
     width: 100vw;
     background-image: url(assets/sec2bg.png);
     background-repeat: no-repeat;
@@ -144,6 +136,7 @@ html,body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 4rem;
 }
 .greyleftdiv{
     width: 37%;
@@ -202,3 +195,309 @@ html,body{
     bottom: -1rem;
     right: -2rem;
 }
+#section3{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+    
+    
+}
+.smallbluediv{
+    height: 20%;
+    width: 78%;
+    background-color: #3247C6;
+    border-radius: 1rem;
+    /* margin-left: 2rem; */
+    margin-top: -4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 2rem; */
+}
+.accessline{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+.Testimonialsdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    /* align-self: self-end; */
+    margin-left: 14rem;
+    margin-top: 4.5rem;
+    /* margin-right: 15em; */
+}
+.Testimonials{
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    
+}
+.arrowdiv{
+    display: flex;
+    gap: 1rem;
+    
+}
+.circlearrowborder{
+    /* display: inline; */
+    align-self: flex-end;
+    
+}
+.cardsparent{
+    width: 80%;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* border: 2px dashed red; */   
+}
+.cardsparent::-webkit-scrollbar {
+  display: none;              
+}
+.cards{
+    border: 1px solid #3247C6;
+    border-radius: 1rem;
+     padding: 2rem;
+     flex-shrink: 0;
+    width: 40%;
+    box-sizing: border-box;
+      
+
+    
+}
+.Enoch{
+    font-size: 20px;
+    font-weight: 500;
+    color: #3247C6;
+}
+.HarvardUniversity{
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    display: block;
+    margin-top: 1rem;
+        margin-bottom: 1rem;
+
+}
+.cardspara{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+        margin-bottom: 2rem;
+
+}
+.ratingsbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rates{
+    display: block;
+    margin-bottom: 1rem;
+}
+#faqsection{
+  height: 75vh;
+  width: 100vw;
+  box-sizing: border-box;
+  /* border: 1px dashed aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-top: -5rem;
+  /* padding-bottom: 3rem; */
+}
+.faqparent{
+    width: 80%;
+    
+    }
+.FAQ{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 3.5rem;
+}
+.faqbody{
+    /* display: flex;
+    justify-content: space-between; */
+    border-bottom: 1px solid #3247C6;
+    padding: 1.5rem;
+    padding-left: 3rem;
+  
+}
+.imgtextdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.faqpara{
+    display: none;
+    width: 90%;
+    font-size: 16px;
+    font-weight: 400;
+   
+    
+    
+}
+.faqbody:hover{
+    border: 1px solid #3247C6;
+    border-radius: 1rem;
+    
+    
+}
+.faqbody:hover .faqpara {
+  display: block;
+   
+
+    
+
+  
+}
+
+.faqtext{
+    font-weight: 500;
+    font-size: 20px;
+    /* margin-left: 2rem; */
+}
+#footersection{
+    height: 50vh;
+    width: 100vw;
+    background-color: #3247C6;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    
+}
+.footer1{
+    width: 40%;
+    padding-top: 5rem;
+}
+.footerpara{
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 1rem;
+}
+.yellowborder{
+   display: flex;
+   height: 10%;
+   
+   justify-content: space-evenly;
+   align-items: center;
+   border-radius: 1rem;
+   border: 1px solid #FFFC31;
+   padding: 1.5rem;
+
+}
+.yellowb{
+    border-right: 2px solid #FFFC31 ;
+    padding: 0.5rem;
+    padding-left: 1rem;
+}
+.yellowtext{
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    margin-right: 1rem;
+}
+.footeractions{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem;
+}
+.igbg{
+    height: 30px;
+    width: 30px;
+    clip-path: circle(50%);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ig{
+    object-fit: cover;
+    
+}
+
+.logobox{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+.footer2{
+    width: 40%;
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+.optionsparent{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 2rem;
+    padding-right: 3rem;
+}
+.Resources{
+    font-size: 20px;
+    font-weight: 600;
+    color: white ;
+    
+}
+.footertext{
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 1rem;
+    display: block;
+    margin-top: 1rem;
+}
+.emailbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.emailtext{
+    font-size: 14px;
+    font-weight: 400;
+    color: #969696;
+}
+.subscribebutton{
+    border: none;
+    background-color: #E54F6D;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 5px;
+}
+.Subscribe{
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+}
+
+
